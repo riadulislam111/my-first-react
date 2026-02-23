@@ -4,12 +4,14 @@ import ToDO from './Todo';
 
 function App() {
 
-
+const time = 50;
   return (
     <>
     
       <h1>Vite + React</h1>
-      <ToDO task='Learn React'></ToDO>
+      <ToDO task='Learn React' isDone={true} time={time}></ToDO>
+      <ToDO task='Revise JS' isDone={false}></ToDO>
+      <ToDO task='Take a shower' isDone={true}></ToDO>
      {/* <Person></Person>
      <Person></Person>
      <Sports></Sports>
