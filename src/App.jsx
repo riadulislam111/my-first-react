@@ -1,5 +1,6 @@
 
 import './App.css'
+import ToDO from './Todo';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
     
       <h1>Vite + React</h1>
-     <Person></Person>
+      <ToDO task='Learn React'></ToDO>
+     {/* <Person></Person>
      <Person></Person>
      <Sports></Sports>
      <Person></Person>
@@ -17,10 +19,11 @@ function App() {
      <Pet></Pet>
      <Sports></Sports>
 
-     <Fruits></Fruits>
+     <Fruits></Fruits> */}
     </>
   )
 }
+
 
 function Person () {
   const age = 39;
